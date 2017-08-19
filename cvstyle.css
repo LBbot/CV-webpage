@@ -1,0 +1,195 @@
+body {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
+	background-color: white;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Calibri", sans-serif;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 70px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-shadow: 2px 2px #000000;
+}
+
+#verticalheader {
+	display: none;
+}
+
+h2 {
+	font-family: "Calibri", sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 0px;
+	margin: 0px;
+	text-shadow: 2px 2px #000000;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: center;
+	background: #5e95cc;
+	border: 2px solid #5e95cc;
+	border-radius: 10px;
+	margin-bottom: 0px;
+	color: white;
+	text-shadow: 2px 2px #000000;
+	cursor: pointer;
+}
+
+h3:hover {
+	color: white;
+	background-color: lightblue;
+	text-shadow: 1px 1px #000000;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 12px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+	
+li a:link {
+	color: white;
+	text-decoration: none;
+}
+
+li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #fff8dc;
+	text-shadow: none;
+}
+
+p {
+	margin-top: 0px;
+	font-size: 18px;
+}
+		
+#bground {
+	background-color: #5e95cc;
+	background-size: cover;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+	
+#main {
+	padding: 0px 2em;
+	max-width: 750px;
+	margin: 0 auto;
+	color: black;
+}
+
+#summary {
+	margin: 20px 0;
+}
+	
+#expandinfo {
+	text-align: center;
+	color: gray;
+}
+
+.content i {
+	text-align: center;
+	margin: 0 0;
+	font-size: 300%;
+	color: lightgray;
+	width: 33%;
+}
+
+.project {
+	font-size: 23px;
+	margin-top: 5px;
+	text-shadow: 1px 1px black;
+}
+
+.project a:link {
+	color: #5e95cc;
+	text-decoration: none;
+}
+
+.project a:visited {
+	color: #5e95cc;
+	text-decoration: none;
+}
+
+.project a:hover {
+	color: lightblue;
+	text-shadow: none;
+}
+	
+.date {
+	color: gray;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-bottom: 1rem;
+	float: left;
+	width: 150px;
+}
+	
+.educationdate {
+	color: gray;
+	font-size: 20px;
+	margin-right: 10px;
+	float: left;
+	width: 150px;
+}
+		
+.place {
+	font-size: 20px;
+}
+
+.role {
+	font-size: 20px;
+	color: #5e95cc;
+}
+
+#foot {
+	margin-top: 300px;
+	text-align: center;
+	color: lightgray
+}
+
+@media (max-width: 655px) {
+
+	#verticalheader {
+		display: inline;
+	}
+
+	li {
+		display: block;
+	}
+
+	#main {
+		text-align: center;
+	}
+
+	.date {
+		float: none;
+		margin: 1rem auto 0 auto;
+	}
+
+	.educationdate {
+		float: none;
+		margin: 0 auto;
+	} 
+}

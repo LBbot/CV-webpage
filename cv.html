@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Laurence Briscoe Web CV</title>
+	<link href="cvstyle.css" rel="stylesheet">
+	<link href="https://code.cdn.mozilla.net/fonts/fira.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+		<!–– NOTE: This page is unreasonably JavaScript heavy purely for the purpose of example.––>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="cv-jquery.js"></script>
+</head>
+
+<body>
+	<div id = "bground">
+		<h1>Laurence<div id = "verticalheader"><br></div> Briscoe</h1>
+		<h2>Curriculum Vitae</h2>	
+		<ul>
+			<li><i class="fa fa-github"></i> <a href="https://github.com/lbbot" target="_blank">GitHub</a></li>
+			<!--Email is shrouded via Javascript to avoid spam.-->
+			<li><i class="fa fa-envelope"></i>
+				<script>
+					var username = "laurencebriscoe";
+					var hostname = "gmail.com";
+					var linktext = username + "@" + hostname ;
+					document.write("<a href=\"" + "mail" + "to:" + username + "@" + hostname + "\">" + linktext + "</a>");
+				</script>
+				<noscript>[email link requires JavaScript]</noscript>
+			</li>
+			<li><i class="fa fa-map-marker"></i> Liverpool</li>
+		</ul>
+	</div>
+
+	<div id = "main">
+		<div id = "summary">
+			<p>I am a hard worker with an aptitude for IT and communication. As a motivated programmer with a background in customer service, I am now looking to utilise and grow my skills in a professional environment.</p>
+		</div>
+
+		<div id = "expandinfo">click section to expand</div>
+
+		<h3>Skills</h3>
+		<div class = "content">
+			<p>Experienced with <strong>Python</strong> programming language, using object-oriented programming and have worked with pip, Selenium, the Twisted networking library and a number of other modules and frameworks in IDLE and PyCharm. </p>
+
+			<p>Can create websites using <strong>HTML5</strong> and <strong>CSS</strong> with responsive design. Can write vanilla <strong>JavaScript</strong> and have experience using Node.js and jQuery. I have also worked with <strong>PHP</strong> and <strong>Java</strong>.</p>
+
+			<p>I am experienced in the use of <strong>Git</strong> version control and workflow. Additionally I am well versed with the use of Adobe Photoshop and Linux operating systems including the command line.</p>
+
+			<div id = "icons">
+				<i class = "fa fa-html5"></i><i class = "fa fa-css3"></i><i class = "fa fa-git"></i>
+			</div>
+		</div>
+
+		<h3>Recent Projects</h3>
+		<div class = "content">
+			<div class = "project"><a href = "https://github.com/LBbot/games/blob/master/pyblackjack.py" target="_blank">Python 3 Blackjack</a></div>
+			<p>A version of the card game Blackjack for the Python console. Player starts with £100, bets £20 a game (also includes an option to double down) until you choose to walk away from the table, run out of your alotted money or hit £200 and win. </p> 
+	
+			<div class = "project"><a href = "https://github.com/LBbot/income_tax_calculator/blob/master/itc2.py" target="_blank">Income Tax Calculator</a></div>
+			<p>A Python program that takes an annual salary and calculates income tax paid monthly and annual based on current brackets and outputs the resulting net and gross in CSV format. Can be run on its own with a detailed user prompt in the console, or can be called with an argument for immediate input and output.</p>
+
+			<div class = "project"><a href = "https://github.com/LBbot/nodeJS-twitterbot/blob/master/lbbotbot.js" target="_blank">Node.js Twitter Bot</a></div>
+			<p>A Twitter bot written in JavaScript that can tweet at regular intervals, that can frequently search for messages with a specific #hashtag to Like and/or Retweet them, and that can autoreply to anyone who Follows it.</p>   
+
+			<div class = "project"><a href = "https://github.com/LBbot/games/blob/master/turn_based_battle.py" target="_blank">RPG-style Turn Based Battle</a></div>
+			<p>A Pok&#233;mon or JRPG style turn-based battle in Python 3. With two attacks and a heal move, you must wittle down 's HP before they do the same to you.</p>     
+
+			<div class = "project"><a href = "https://github.com/LBbot/AutomateTheBoringStuffProjects/blob/master/insert_numbered_files.py" target="_blank">Insert Gap In Numbered Files script</a></div>
+			<p>A stripped down automation script in Python 3 that can look at a range of numbered files in a directory and rename them to create a gap in the ordering for a new file in the middle. (For example if the user had "photo01.jpg, photo02.jpg, photo03.jpg and photo04.jpg" and wanted a new photo to be second in that order it would change 02 to 03 and so on and so on - to accomodate that.)</p>
+		</div>
+	
+		<h3>Employment History</h3>
+		<div class = "content">
+			<div class = "date">2015-Present</div>
+			<div class = "place">Argos</div>
+			<div class = "role">Stockroom Adviser</div>
+
+			<p>I work with three different systems (Warehouse Execution System, Argos UnixWare Retail Analysis and ZetesMedea Voice) to keep track of orders and stock in a high pressure, time-sensitive environment.</p>
+
+			<div class = "date">2010-2015</div>
+			<div class = "place">Barnardos</div>
+			<div class = "role">Volunteer</div>
+
+			<div class = "date">2014-2015</div>
+			<div class = "place">Tesco Liverpool Metro</div>
+			<div class = "role">General Assistant (Nights)</div>
+
+			<div class = "date">2013</div> 
+			<div class = "place">John Lewis</div>
+			<div class = "role">Stock Management</div>
+
+			<div class = "date">2011-2012</div>
+			<div class = "place">Asda Hunts Cross</div>
+			<div class = "role">Sales Assistant</div>
+			<p>In a wealth of customer service roles (including five years of volunteering with a children's charity) I demonstrated responsibility in customer service, cash handling, manual handling, working as part of a team and training staff.</p>
+
+			<div class = "date">2009</div>
+			<div class = "place">Sony Computer Entertainment</div>
+			<div class = "role">Format Quality Assurance</div>
+			<p>I worked as part of a team testing software across a variety of networked hardware platforms to find bugs and write comprehensive reports to ensure stable builds.</p>
+		</div>
+
+		<h3>Training and Education</h3>
+		<div class = "content">
+			<div class = "educationdate">2006-2009</div>
+			<div class = "role">Liverpool Community College</div>
+			<p>Three A-Levels, A/S Computer Studies and Level 3 Key Skills Communication.</p>
+
+			<div class = "educationdate">2001-2006</div>
+			<div class = "role">Calderstones school</div>
+			<p>GCSEs A-C including Maths, English and IT. </p>
+		</div>
+	
+		<div id = "foot">
+			&copy; Laurence Briscoe
+		</div>
+	</div>
+</body>
